@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Run this script to get the password for the Wi-Fi network you are currently connected to
 echo "running pwifi.sh"
 
