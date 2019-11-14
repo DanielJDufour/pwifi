@@ -3,10 +3,13 @@ Print Wi-Fi Password on Your Chromebook
 
 # usage
 ```
-# installs it
+# installs the pwifi script
 wget https://raw.githubusercontent.com/DanielJDufour/pwifi/master/pwifi.sh -O /usr/local/bin/pwifi
 
-# runs it
+# makes the pwifi script executable
+chmod +x /usr/local/bin/pwifi
+
+# runs pwifi
 pwifi
 ```
 which outputs:
