@@ -1,16 +1,16 @@
 # pwifi
 Print Wi-Fi Password on Your Chromebook
 
-# download
-Download this file https://github.com/DanielJDufour/pwifi/blob/master/pwifi.sh
-
-# run it
-```bash
-bash pwifi.sh
+# usage
 ```
-outputs
-```
+# installs it
+wget https://raw.githubusercontent.com/DanielJDufour/pwifi/master/pwifi.sh -O /usr/local/bin/pwifi
 
+# runs it
+pwifi
+```
+which outputs:
+```
 running pwifi.sh
 path_to_shill_profile: /home/root/askjdfhlausdfbyasgdfjgasdf/shill/shill.profile
 service_id: 126
